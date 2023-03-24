@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body{
-  background-color: ;
+  background-image: linear-gradient(to bottom right, red, yellow);
 }
 header {
     background-color: #333;
@@ -84,13 +84,19 @@ header {
   }
   .zoom{
     
- padding: 50px;
+ padding: 10px;
   transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
+ 
   margin: 0 auto;
 }
 .zoom:hover {
     transform: scale(2.1);
+}  
+.row {
+  display: flex;
 }
-  
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
